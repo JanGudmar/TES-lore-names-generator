@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <noscript>Sorry, you need js to run the generator!</noscript>
+    <script src="generator.js"></script>
+    <link rel="stylesheet" href="styles.css">  
+    <title>TES lore names generator</title>
+</head>
+<body>
+    <div class="container">
+
+        <header><h1>The Elder Scrolls simple lore names generator for you characters!</h1></header>
+
+        <section class="intro">
+            <p>All used names starts from TES3 Morrowind. Choose race and gender to get name!</p>
+        </section> 
+
+        <section class="generate">
+            
+            <select id="selectRace">
+                <option value="Altmer">Altmer (High Elf)</option>
+                <option value="Bosmer">Bosmer (Wold Elf)</option>
+                <option value="Dunmer">Dunmer (Dark Elf)</option>
+                <option value="Orsimer">Orsimer (Orc)</option>
+                <option value="Nord">Nord</option>
+                <option value="Redguard">Redguard</option>
+                <option value="Breton">Breton</option>
+                <option value="Imperial">Imperial</option>
+                <option value="Khajiit">Khajiit</option>
+                <option value="Argonian">Argonian</option>
+            </select>
+
+            <select id="selectGender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <button class="button" type="button" id="generateName" onclick="generateName()">Get the name!</button>
+
+            
+        </section>
+
+        <div id="createdName">~place for name!~</div>
+
+        <footer>
+            <h2>So, what's the point?</h2>
+            <p>I use generated names when role-play, for example. Or for new characters in TESO. Also it can be useful for modders to add new NPCs with lore names. 
+            Check out <abbr name="Unofficial Elder Scrolls Pages"><a href="http://www.uesp.net" alt="UESP" target="_blank">UESP</a></abbr>, 
+            I took the data for my generator from it.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
