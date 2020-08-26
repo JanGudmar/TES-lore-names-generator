@@ -280,7 +280,6 @@ let dunmerNameFemale = ["Mehra", "Daynasa", "Daynila", "Felara", "Galsa", "Mivan
     "Varona", "Varoni", "Vayne", "Vedelea", "Vedyne", "Velas", "Veldrana", "Velsa", "Venae", "Venoni", "Veran", "Veranim", "Verilu", "Vermethys", "Veru", "Vess", "Vethisa", "Veya", "Vila", "Vilasti", "Vilrani", "Vim", "Vindamea", "Vinden", "Vireveri", "Viruse", "Visthina", "Vivyne", "Vlaasti", "Vlesyl", "Voldsea",
     "Volene", "Volmyni", "Volyn", "Vrali", "Vuldronu", "Vuri", "Vurila", "Wren", "Xand", "Yakin", "Zaristesi", "Laaneth", "Anara", "Drelliane", "Iachilla", "Inzoliah", "Katariah", "Llirala", "Neria", "Peliah", "Sendrasa", "Turala", 
 ];
-// let dunmerSurname = []; mb next time
  
 let orsimerNameMale = ["Moghakh", "Atulg", "Azuk", "Bagamul", "Bakh", "Baronk", "Bashag", "Bazgulub", "Bogakh", "Bologra", "Borug", "Both", "Bugdul", "Bugharz", "Bugrash", "Bugrol", "Bumbub", "Burul", "Dul", "Dular", "Duluk", "Duma", "Dumbuk", "Dumburz", "Dur",
     "Durbul", "Durgash", "Durz", "Durzol", "Durzub", "Durzum", "Garothmuk", "Garzonk", "Gashna", "Ghamborz", "Ghamonk", "Ghoragdush", "Ghorlorz", "Glush", "Grat", "Gruzgob", "Guarg", "Gurak", "Khadba", "Khagra", "Khargol", "Koffutto", "Largakh", "Lorbumol", "Lorzub",
@@ -792,10 +791,10 @@ function generateName() {
     }
 
     else if (race === "Dunmer" && gender === "Male") {
-        name = dunmerNameMale[randomize(dunmerNameMale.length)]
+        name = dunmerNameMale[randomize(dunmerNameMale.length)];
     }
     else if (race === "Dunmer" && gender === "Female") {
-        name = dunmerNameFemale[randomize(dunmerNameFemale.length)]
+        name = dunmerNameFemale[randomize(dunmerNameFemale.length)];
     }
 
     else if (race === "Orsimer" && gender === "Male") {
@@ -827,10 +826,10 @@ function generateName() {
     }
 
     else if (race === "Imperial" && gender === "Male") {
-        name = imperialNameMale[randomize(imperialNameMale.length)]
+        name = imperialNameMale[randomize(imperialNameMale.length)];
     }
     else if (race === "Imperial" && gender === "Female") {
-        name = imperialNameFemale[randomize(imperialNameFemale.length)]
+        name = imperialNameFemale[randomize(imperialNameFemale.length)];
     }
 
     else if (race === "Khajiit" && gender === "Male") {
